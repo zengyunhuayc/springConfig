@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: providerService # 指定注册到eureka server上的服务名称
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaServer1:8082/eureka/,http://eurekaServer2:8083/eureka/ # 指定eureka server通信地址，注意/eureka/小尾巴不能少
