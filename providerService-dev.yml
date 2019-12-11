@@ -1,5 +1,3 @@
-server:
-  port: 8080
 spring:
   application:
     name: providerService # 指定注册到eureka server上的服务名称
